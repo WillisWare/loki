@@ -6,6 +6,8 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3D84B81-4618-46D7-8282-1D2817FC4FFB}"
 	ProjectSection(SolutionItems) = preProject
 		airforce.ico = airforce.ico
+		Loki.pfx = Loki.pfx
+		Pfx_Pass.nfo = Pfx_Pass.nfo
 		README.md = README.md
 		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
 	EndProjectSection
@@ -17,6 +19,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mil.AirForce.Loki.Business", "Mil.AirForce.Loki.Business\Mil.AirForce.Loki.Business.csproj", "{A947BF3F-DD4A-4AE5-A4F6-BC8E79AB3098}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mil.AirForce.Loki.Models", "Mil.AirForce.Loki.Models\Mil.AirForce.Loki.Models.csproj", "{74E7C49F-E0CA-4203-8809-282C65B3D6D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mil.AirForce.Loki.WebApi", "Mil.AirForce.Loki.WebApi\Mil.AirForce.Loki.WebApi.csproj", "{C50EBAFA-CE3C-4593-9338-C7D7FF961431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mil.AirForce.Loki.WebUi", "Mil.AirForce.Loki.WebUi\Mil.AirForce.Loki.WebUi.csproj", "{37F676A0-6D7F-405C-8C74-AE20F625575A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mil.AirForce.Loki.WindowsUi", "Mil.AirForce.Loki.WindowsUi\Mil.AirForce.Loki.WindowsUi.csproj", "{C61B84B6-B6CD-498A-BA73-29E535653A1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +48,18 @@ Global
 		{74E7C49F-E0CA-4203-8809-282C65B3D6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74E7C49F-E0CA-4203-8809-282C65B3D6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74E7C49F-E0CA-4203-8809-282C65B3D6D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50EBAFA-CE3C-4593-9338-C7D7FF961431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50EBAFA-CE3C-4593-9338-C7D7FF961431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50EBAFA-CE3C-4593-9338-C7D7FF961431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50EBAFA-CE3C-4593-9338-C7D7FF961431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F676A0-6D7F-405C-8C74-AE20F625575A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F676A0-6D7F-405C-8C74-AE20F625575A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F676A0-6D7F-405C-8C74-AE20F625575A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F676A0-6D7F-405C-8C74-AE20F625575A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61B84B6-B6CD-498A-BA73-29E535653A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61B84B6-B6CD-498A-BA73-29E535653A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61B84B6-B6CD-498A-BA73-29E535653A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61B84B6-B6CD-498A-BA73-29E535653A1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
