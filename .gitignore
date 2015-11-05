@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo
+/Mil.AirForce.Loki.Business/obj/Debug
+/Mil.AirForce.Loki.Common/obj/Debug
+/Mil.AirForce.Loki.DataAccess/obj/Debug
+/Mil.AirForce.Loki.Models/obj/Debug
+/Mil.AirForce.Loki.WindowsUi/obj/Debug
+/packages
+/.vs/config
