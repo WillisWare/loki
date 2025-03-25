@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Mil.AirForce.Loki.Common.Resources;
-using Newtonsoft.Json;
 
 // Models used as parameters to AccountController actions.
 namespace Mil.AirForce.Loki.WebApi.Models
